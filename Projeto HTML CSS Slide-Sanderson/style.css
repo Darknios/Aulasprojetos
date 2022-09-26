@@ -1,0 +1,51 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+header{
+    width: 100%;
+    margin-top: 16px;
+    
+}
+section{
+    display:flex;
+    justify-content: space-between;
+}
+nav{
+    box-sizing: border-box;
+    padding-top: 10.5px;
+    
+}
+
+
+nav ul {  list-style: none;  }
+
+
+nav ul li {
+    display: inline;
+    color: #fcd861;
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: solid #fae5ae;
+    border-top: solid #fae5ae;
+    cursor: pointer;
+    transition: 0.5s;
+}
+nav ul li:nth-child(2){
+    margin: 0 16px;
+}
+nav ul li:hover{
+    box-shadow: 
+    0 0 8px #adaca7
+    0 0 8px #b3b0ab
+    0 0 10px #b3b2b0
+    0 0 12px #b3b2b1;
+    background-color: #fcd861;
+    border-radius: 8px;
+    color: white;
+    transition: 1s;
+}
+section div.redes img:nth-child(1){
+    margin-right: 32px;
+
+}
