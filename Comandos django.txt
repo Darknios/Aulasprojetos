@@ -1,0 +1,8 @@
+python -m venv .venv   
+.venv\Scripts\activate 
+pip install django 
+pip freeze  
+touch .gitignore   
+django-admin startproject config .
+python manage.py runserver
+python manage.py startapp task
