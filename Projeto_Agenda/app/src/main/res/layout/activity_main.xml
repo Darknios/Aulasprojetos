@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Buscar por nome" />
+
+
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+
+    <EditText
+        android:id="@+id/inputFone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fone"
+        android:inputType="phone" />
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
